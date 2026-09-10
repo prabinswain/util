@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: auth-service
+
+server:
+  port: 8082
+
+# app info
+info:
+  app:
+    name: auth-service
+    version: 1.0.0
+    description: Authentication service
+
+management:
+
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  info:
+    env:
+      enabled: true
+
+
+logging:
+  level:
+    root: INFO
+    org.springframework: INFO
+
+  pattern:
+    console: "%d{yyyy-MM-DD HH:mm:ss} [%level] %X{TRACEID} [%logger{36}] %msg%n"
