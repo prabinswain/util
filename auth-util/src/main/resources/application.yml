@@ -22,6 +22,19 @@ management:
     env:
       enabled: true
 
+#api keys
+apikey:
+  LCMS: 4fc5dab9-5e8c-45f6-9862-0dc836034c51
+  CRM: 68a13dfe-5d21-4cf9-8633-6386555624b7
+  DM: b8945c1f-131e-4ea6-8224-7308a1d1590c
+  DDGS: e2a65f60-8fa4-45bd-b3b1-781721637e2e
+  PREQUAL: 482ad9b8-da6d-4264-8cbb-11cf41010f60
+  HEALTHPROBE: test
+  SKP: wUylrDgKaVjweeyNLjXPWjrm2IGy9fb4
+  ECIFConsolidation: 13B14C81F98FBF8D5DD783FDC43F
+  SNOW: test
+
+
 
 logging:
   level:

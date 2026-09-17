@@ -1,6 +1,6 @@
-package com.auth_util.api.healthprobe.controller;
+package com.auth_util.auth.api.healthprobe.controller;
 
-import com.auth_util.api.healthprobe.dao.HealthProbeDao;
+import com.auth_util.auth.api.healthprobe.dao.HealthProbeDao;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
